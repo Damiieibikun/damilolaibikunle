@@ -3,6 +3,7 @@ import Projectoptions from './Projectoptions';
 import projects from './projectOverview'
 import { IoMdArrowDropdown } from "react-icons/io";
 import useScreenSize from './Screen';
+import Linkto from './Linkto';
 
 
 const Projects = () => {
@@ -102,8 +103,7 @@ const Projects = () => {
           <option value="">All Projects</option>
           <option value="frontend">Front End Projects</option>
           <option value="fullstack">Full Stack Projects</option>
-          <option value="datascience">Data Science</option>
-          
+          <option value="datascience">Data Science</option>         
         </select>
         </div>
       <div data-aos="flip-right" 
@@ -145,9 +145,10 @@ const Projects = () => {
                 ))   
       }
       </div>
+      <div className='lg:hidden'>
       <div data-aos="flip-right" 
     data-aos-duration="700"
-    className='grid grid-cols-1 sm:grid-cols-2 gap-1.5 lg:hidden justify-items-center'>
+    className='grid grid-cols-1 sm:grid-cols-2 gap-1.5 justify-items-center'>
       {
                 selected_project !== '' ? projects?.filter((project)=>project.category === selected_project)
                 .map(({technologies, applications})=> applications.map((app, idx)=>
@@ -184,6 +185,19 @@ const Projects = () => {
                 ))   
       }
       </div>
+        <div className='flex justify-center mt-3.5 mb-14'>
+        <Linkto
+            address={'https://github.com/Damiieibikun?tab=repositories'}
+            action={'_blank'}
+            caption={'View all on github'}
+            styles={'text-xs font-bold'}
+           />
+           
+        
+        </div>
+      
+      </div>
+     
     </div>
   );
 };
