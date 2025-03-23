@@ -84,7 +84,7 @@ const Projects = () => {
     <ul className="justify-items-start justify-self-start">
       <li className="relative group text-xl p-2">
         <a href="https://github.com/Damiieibikun?tab=repositories" target="_blank">
-          View All on GitHub
+          View All projects on GitHub
         </a>
         <span className="absolute bottom-[-1px] left-0 h-0 w-full bg-[#1456ab] group-hover:h-[4px] transition-all duration-200"></span>
       </li>
@@ -189,8 +189,8 @@ const Projects = () => {
         <Linkto
             address={'https://github.com/Damiieibikun?tab=repositories'}
             action={'_blank'}
-            caption={'View all on github'}
-            styles={'text-xs font-bold'}
+            caption={'View all projects on github'}
+            styles={'text-xl font-bold'}
            />
            
         
