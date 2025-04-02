@@ -17,7 +17,7 @@ import amazon from '../assets/images/amazon-color-svgrepo-com.svg';
         {
           title: 'Amazon Clone',
           coverimg: amazon,
-          sitelink: '#',
+          sitelink: 'https://amazon-e-commerce-clone.onrender.com/',
           descp: 'A simple E-commerce website. Design was based original website Amazon',
           linktitle: 'View App',
           originalsite: "https://www.amazon.com/",
