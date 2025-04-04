@@ -1,5 +1,6 @@
 import ibmrreview from '../assets/images/ibmmedium.jpg'
 import atomichabits from '../assets/images/habitsmedium.png'
+import fullstack from '../assets/images/fullstack.jpg'
 
 const blogs = [
     {
@@ -13,6 +14,12 @@ const blogs = [
         title: 'Transform Your Life with “Atomic Habits” by James Clear',
         thumbnail: atomichabits,
         link: 'https://medium.com/@dams_ibikunle/transform-your-life-with-atomic-habits-by-james-clear-15f8f9639c57'
+    },
+    {
+        sitename: 'Medium.com',
+        title: 'My Learning Journey In Full-Stack Web Development: Lessons, Tools, and Projects',
+        thumbnail: fullstack,
+        link: 'https://medium.com/@damiieibikun/my-learning-journey-in-full-stack-web-development-lessons-tools-and-projects-6faece928bbb'
     }
  
 ]

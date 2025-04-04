@@ -11,7 +11,7 @@ const Hero = () => {
         <div className='text-center flex flex-col justify-center gap-10 h-full p-4'>
           <img src={profilepic} alt="profilepic" className='h-48 w-48 rounded-full self-center lg:hidden'/>
         <h1 className='text-6xl lg:text-7xl uppercase font-extrabold tracking-widest'>Damilola Ibikunle</h1>
-        <h1 className='text-2xl lg:text-3xl capitalize font-thin'>Full-Stack Engineer</h1>
+        <h1 className='text-2xl lg:text-3xl capitalize font-thin'>Junior Full-Stack Developer</h1>
         <div className='flex items-center justify-center gap-6'>
         <Linkto
       address={'#aboutme'}
