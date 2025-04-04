@@ -120,7 +120,7 @@ useEffect(() => {
       </div>
         
         <button
-        className ='flex items-center gap-2 fixed z-100 bottom-5 left-5 hover:cursor-pointer text-[18px] font-light transition-all duration-300 px-6 py-2
+        className ='flex items-center gap-2 fixed z-100 bottom-5 right-5 hover:cursor-pointer text-[18px] font-light transition-all duration-300 px-6 py-2
          rounded-sm border dark:text-[#FAF9F6] dark:bg-[#10141E] bg-[#FAF9F6] text-[#10141E] hover:text-[#FAF9F6]
         hover:bg-[#10141E] dark:hover:bg-[#FAF9F6] dark:hover:text-[#10141E] dark:border-gray-700 border-gray-200'
         onClick={scrollToTop}>        
