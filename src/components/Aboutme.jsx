@@ -14,7 +14,7 @@ const Aboutme = () => {
         <h1 className='text-5xl lg:text-6xl font-bold tracking-widest'>About Me</h1>
       </div>
       <div className='flex flex-col items-center justify-center p-5 text-[18px] font-light bg-[#faf9f67e] shadow-md rounded-md dark:bg-[#161b29] dark:text-[#FAF9F6]'>
-      <p>I am a trained full-stack web developer and a senior research analyst with experience in data analytics.</p>
+      <p>I am a junior full-stack web developer and a senior research analyst with experience in data analytics.</p>
 <br />
 <p>I build dynamic, user-friendly, and scalable web applications using modern technologies like React, Node.js, Express, and MongoDB.</p>
 <br />    
