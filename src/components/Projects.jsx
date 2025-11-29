@@ -118,7 +118,7 @@ const Projects = () => {
                 key={idx}       
                 title={app?.title}
                 technologies={technologies}
-                coverimg = {app?.coverimg}
+                images={app?.images}
                 sitelink={app?.sitelink}
                 descp={app?.descp}
                 linktitle={app?.linktitle}
@@ -133,7 +133,7 @@ const Projects = () => {
                     key={`${ix}${idx}`}
                     title={app?.title}
                     technologies={technologies}
-                    coverimg = {app?.coverimg}
+                    images={app?.images}
                     sitelink={app?.sitelink}
                     descp={app.descp}
                     linktitle={app?.linktitle}
@@ -158,7 +158,7 @@ const Projects = () => {
                  key={idx}       
                  title={app?.title}
                  technologies={technologies}
-                 coverimg = {app?.coverimg}
+                 images={app?.images}
                  sitelink={app?.sitelink}
                  descp={app?.descp}
                  linktitle={app?.linktitle}
@@ -173,7 +173,7 @@ const Projects = () => {
                     key={`${ix}${idx}`}
                     title={app?.title}
                     technologies={technologies}
-                    coverimg = {app?.coverimg}
+                    images={app?.images}
                     sitelink={app?.sitelink}
                     descp={app.descp}
                     linktitle={app?.linktitle}
