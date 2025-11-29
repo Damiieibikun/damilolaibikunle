@@ -1,7 +1,11 @@
 import todo1 from '../assets/images/todo1.png';
 import todo2 from '../assets/images/todo2.png';
 import todo3 from '../assets/images/todo3.png';
-import poketo from '../assets/images/pk-logotype-dark.png';
+import poketo1 from '../assets/images/poketo1.png';
+import poketo2 from '../assets/images/poketo2.gif';
+import poketo3 from '../assets/images/poketo3.png';
+import poketo4 from '../assets/images/poketo4.gif';
+import poketo5 from '../assets/images/poketo5.png';
 import quiz1 from '../assets/images/quiz1.png';
 import quiz2 from '../assets/images/quiz2.png';
 import quiz3 from '../assets/images/quiz3.png';
@@ -14,7 +18,11 @@ import babysit4 from '../assets/images/babysit4.png';
 import ibm1 from '../assets/images/ibm1.png';
 import ibm2 from '../assets/images/ibm2.png';
 import ibm3 from '../assets/images/ibm3.png';
-import hive from '../assets/images/hive-blockchain-svgrepo-com.svg';
+import hive1 from '../assets/images/hive1.png';
+import hive2 from '../assets/images/hive2.png';
+import hive3 from '../assets/images/hive3.png';
+import hive4 from '../assets/images/hive4.png';
+import hive5 from '../assets/images/hive5.png';
 import amazon1 from '../assets/images/amazon1.png';
 import amazon2 from '../assets/images/amazon2.png';
 import amazon3 from '../assets/images/amazon3.png';
@@ -32,6 +40,8 @@ const babysitImages = [babysit1, babysit2, babysit3, babysit4];
 const amazonImages = [amazon1, amazon2, amazon3, amazon4, amazon5];
 const ibmImages = [ibm1, ibm2, ibm3];
 const dropoutImages = [dropout1, dropout2, dropout3, dropout4, dropout5];
+const poketoImages = [poketo1, poketo2, poketo3, poketo4, poketo5];
+const hiveImages = [hive1, hive2, hive3, hive4, hive5];
 const projects = [
   {
     category: 'frontend',
@@ -56,7 +66,7 @@ const projects = [
     applications: [
       {
         title: 'Poketo Clone',
-        images: [poketo],
+        images: poketoImages,
         sitelink: 'https://damiieibikun.github.io/Poketo-Ecommerce-Clone/',
         descp: 'A simple E-commerce website. Design was based original website Poketo',
         linktitle: 'View Clone',
@@ -107,7 +117,7 @@ const projects = [
     applications: [
       {
         title: 'Hive Blog Clone',
-        images: [hive],
+        images: hiveImages,
         sitelink: 'https://hive-clone.onrender.com/',
         descp: 'A fullstack blog application inspired by Hive Blog.',
         linktitle: 'View Clone',
