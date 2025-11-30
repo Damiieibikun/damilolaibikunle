@@ -9,7 +9,7 @@ const Articles = () => {
     data-aos="zoom-in"
     data-aos-duration="700" >  
         <h1 className='text-center text-5xl lg:text-6xl tracking-widest font-bold'>Articles</h1>
-    <div  className='my-5 py-5 px-10 bg-[#faf9f67e] shadow-md  dark:bg-[#161b29] dark:text-[#FAF9F6] gap-2 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4'>
+    <div  className='my-5 py-5 px-10 bg-[#faf9f67e] shadow-md  dark:bg-[#161b29] dark:text-[#FAF9F6] gap-3 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4'>
         {blogs?.map(({sitename, title, thumbnail, link}, index)=>
         <Blogcard
         key={index}
@@ -18,9 +18,7 @@ const Articles = () => {
         link={link}
         sitename={sitename}
         />)}
-    </div>    
-
-
+    </div>   
     </div>
   )
 }

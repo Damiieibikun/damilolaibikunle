@@ -23,7 +23,7 @@ const Skills = () => {
         {name: 'React',
             value: reactframework,
         link: 'https://react.dev/'},
-        {name: 'React Vite',
+        {name: 'Vite',
             value: vite,
         link: 'https://vite.dev/guide/'},
         {name: 'Next JS',

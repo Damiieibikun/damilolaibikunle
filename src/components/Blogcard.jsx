@@ -13,7 +13,7 @@ const Blogcard = ({title, thumbnail, link, sitename}) => {
          
         </a>       
         <div className="flex items-center justify-end my-2.5">
-           <a href={link} target='_blank' className='text-xs lowercase hover:text-[#1456ab]'>Site: {sitename}</a>
+           <a href={link} target='_blank' className='text-xs opacity-70 lowercase hover:opacity-100'>Site: {sitename}</a>
         </div>
     </div>
 </div>

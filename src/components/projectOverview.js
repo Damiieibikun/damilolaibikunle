@@ -33,6 +33,20 @@ import dropout2 from '../assets/images/dropout2.png';
 import dropout3 from '../assets/images/dropout3.png';
 import dropout4 from '../assets/images/dropout4.png';
 import dropout5 from '../assets/images/dropout5.png';
+import cms1 from '../assets/images/cms1.png';
+import cms2 from '../assets/images/cms2.png';
+import cms3 from '../assets/images/cms3.png';
+import cms4 from '../assets/images/cms4.png';
+import cms5 from '../assets/images/cms5.png';
+import cms6 from '../assets/images/cms6.png';
+import cms7 from '../assets/images/cms7.png';
+import cms8 from '../assets/images/cms8.png';
+import cms9 from '../assets/images/cms9.png';
+import cms10 from '../assets/images/cms10.png';
+import cms11 from '../assets/images/cms11.png';
+import cms12 from '../assets/images/cms12.png';
+import cmsVid from '../assets/images/cmsvid.mp4';
+
 
 const todoImages = [todo1, todo2, todo3];
 const quizImages = [quiz1, quiz2, quiz3, quiz4, quiz5];
@@ -42,6 +56,10 @@ const ibmImages = [ibm1, ibm2, ibm3];
 const dropoutImages = [dropout1, dropout2, dropout3, dropout4, dropout5];
 const poketoImages = [poketo1, poketo2, poketo3, poketo4, poketo5];
 const hiveImages = [hive1, hive2, hive3, hive4, hive5];
+const cmsImages = [cms1, cms2, cms3, cms4, cms5];
+export const cmsAllImages = [cms1, cms2, cms3, cms4, cms5, cms6, cms7, cms8, cms9, cms10, cms11, cms12];
+export { cmsVid };
+
 const projects = [
   {
     category: 'frontend',
@@ -123,6 +141,21 @@ const projects = [
         linktitle: 'View Clone',
         originalsite: 'https://hive.blog/',
         originallinktitle: 'Visit Site',
+      },
+    ],
+  },
+  {
+    category: 'fullstack',
+    name: 'React JS',
+    technologies: ['react js', 'express', 'mongoose', 'mongodb atlas', 'axios', 'multer', 'bycrypt', 'cors', 'tailwind', 'localstorage'],
+    applications: [
+      {
+        title: 'Content Management System (CMS)',
+        images: cmsImages,
+        descp: 'A content management system (CMS) for managing and creating content for a website.',
+        linktitle: 'View Slides',
+        allImages: cmsAllImages,
+        video: cmsVid,
       },
     ],
   },

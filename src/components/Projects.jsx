@@ -108,7 +108,7 @@ const Projects = () => {
         </div>
       <div data-aos="flip-right" 
     data-aos-duration="700"
-    className='grid-cols-3 gap-1.5 justify-items-center hidden lg:grid'>
+    className='grid-cols-3 gap-4 justify-items-center hidden lg:grid'>
       {
                selected_project !== '' ? projects?.filter((project)=>project.name === selected_project)
                .map(({technologies, applications})=> applications.map((app, idx)=>
@@ -124,6 +124,8 @@ const Projects = () => {
                 linktitle={app?.linktitle}
                 originalsite={app?.originalsite}
                 originallinktitle={app?.originallinktitle}
+                allImages={app?.allImages}
+                video={app?.video}
                 /> 
               )}
             )) :      
@@ -139,6 +141,8 @@ const Projects = () => {
                     linktitle={app?.linktitle}
                     originalsite={app?.originalsite}
                     originallinktitle={app?.originallinktitle}
+                    allImages={app?.allImages}
+                    video={app?.video}
                     /> )
                    
                   }        
@@ -164,6 +168,8 @@ const Projects = () => {
                  linktitle={app?.linktitle}
                  originalsite={app?.originalsite}
                  originallinktitle={app?.originallinktitle}
+                 allImages={app?.allImages}
+                 video={app?.video}
                  /> 
                )}
              )) :      
@@ -179,6 +185,8 @@ const Projects = () => {
                     linktitle={app?.linktitle}
                     originalsite={app?.originalsite}
                     originallinktitle={app?.originallinktitle}
+                    allImages={app?.allImages}
+                    video={app?.video}
                     /> )
                    
                   }        
