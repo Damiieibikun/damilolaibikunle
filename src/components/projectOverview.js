@@ -45,7 +45,7 @@ import cms9 from '../assets/images/cms9.png';
 import cms10 from '../assets/images/cms10.png';
 import cms11 from '../assets/images/cms11.png';
 import cms12 from '../assets/images/cms12.png';
-import cmsVid from '../assets/images/cmsvid.mp4';
+import cmsVid from '../assets/images/cms_demo_vid.mp4';
 
 
 const todoImages = [todo1, todo2, todo3];

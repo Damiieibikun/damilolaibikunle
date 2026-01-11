@@ -47,7 +47,7 @@ const Projectoptions = ({ technologies, title, originalsite, sitelink, descp, im
 
   return (
     <div
-      className="group my-6 max-w-lg bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col min-h-[480px]"
+      className="group my-6 max-w-lg bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col min-h-[480px] transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-xl hover:border-gray-300 dark:hover:border-gray-600"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -57,7 +57,7 @@ const Projectoptions = ({ technologies, title, originalsite, sitelink, descp, im
             {normalizedImages.map((imgSrc, idx) => (
               <img
                 key={`${title}-${idx}`}
-                className={`absolute inset-0 h-full w-full object-contain transition-opacity duration-700 ease-in-out ${idx === activeImageIndex ? 'opacity-100' : 'opacity-0'}`}
+                className={`absolute inset-0 h-full w-full object-contain transition-all duration-700 ease-in-out group-hover:scale-110 ${idx === activeImageIndex ? 'opacity-100' : 'opacity-0'}`}
                 src={imgSrc}
                 alt={`${title} preview ${idx + 1}`}
                 loading="lazy"
@@ -76,7 +76,7 @@ const Projectoptions = ({ technologies, title, originalsite, sitelink, descp, im
             {normalizedImages.map((imgSrc, idx) => (
               <img
                 key={`${title}-${idx}`}
-                className={`absolute inset-0 h-full w-full object-contain transition-opacity duration-700 ease-in-out ${idx === activeImageIndex ? 'opacity-100' : 'opacity-0'}`}
+                className={`absolute inset-0 h-full w-full object-contain transition-all duration-700 ease-in-out group-hover:scale-110 ${idx === activeImageIndex ? 'opacity-100' : 'opacity-0'}`}
                 src={imgSrc}
                 alt={`${title} preview ${idx + 1}`}
                 loading="lazy"

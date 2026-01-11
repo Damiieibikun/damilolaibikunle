@@ -6,7 +6,7 @@ const Footer = () => {
       <div className='w-[80%] mx-auto flex items-center gap-3 tracking-widest justify-center p-6'>
        
       {'\u00A9'} 
-      <p>Ibikunle Damilola</p>
+      <p>Damilola Ibikunle</p>
       {
         new Date().getFullYear()
       }
