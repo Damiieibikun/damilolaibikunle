@@ -123,7 +123,7 @@ const Projectoptions = ({ technologies, title, originalsite, sitelink, descp, im
               onClick={() => setIsVideoOpen(true)}
               className="text-xs font-bold shadow-md transition-all duration-300 px-6 py-2 rounded-sm border border-gray-200 dark:text-[#FAF9F6] dark:border-gray-700 dark:bg-transparent bg-[#FAF9F6] text-[#10141E] hover:text-[#FAF9F6] hover:bg-[#10141E] dark:hover:bg-[#FAF9F6] dark:hover:text-[#10141E]"
             >
-              See Demo
+              Watch Demo
             </button>
           )}
 

@@ -46,6 +46,7 @@ import cms10 from '../assets/images/cms10.png';
 import cms11 from '../assets/images/cms11.png';
 import cms12 from '../assets/images/cms12.png';
 import cmsVid from '../assets/images/cms_demo_vid.mp4';
+import hiveVid from '../assets/images/hive_demo_vid.mp4';
 
 
 const todoImages = [todo1, todo2, todo3];
@@ -58,7 +59,7 @@ const poketoImages = [poketo1, poketo2, poketo3, poketo4, poketo5];
 const hiveImages = [hive1, hive2, hive3, hive4, hive5];
 const cmsImages = [cms1, cms2, cms3, cms4, cms5];
 export const cmsAllImages = [cms1, cms2, cms3, cms4, cms5, cms6, cms7, cms8, cms9, cms10, cms11, cms12];
-export { cmsVid };
+export { cmsVid, hiveVid };
 
 const projects = [
   {
@@ -141,6 +142,7 @@ const projects = [
         linktitle: 'View Clone',
         originalsite: 'https://hive.blog/',
         originallinktitle: 'Visit Site',
+        video: hiveVid,
       },
     ],
   },
