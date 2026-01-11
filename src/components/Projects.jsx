@@ -103,7 +103,7 @@ const Projects = () => {
           <option value="">All Projects</option>
           <option value="frontend">Front End Projects</option>
           <option value="fullstack">Full Stack Projects</option>
-          <option value="datascience">Data Science</option>         
+          <option value="datascience">Data Science Projects</option>         
         </select>
         </div>
       <div data-aos="flip-right" 
