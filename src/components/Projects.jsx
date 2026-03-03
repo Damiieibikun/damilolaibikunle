@@ -83,7 +83,7 @@ const Projects = () => {
   <div>
     <ul className="justify-items-start justify-self-start">
       <li className="relative group text-xl p-2">
-        <a href="https://github.com/Damiieibikun?tab=repositories" target="_blank">
+        <a href="https://github.com/Damiieibikun" target="_blank">
           View All projects on GitHub
         </a>
         <span className="absolute bottom-[-1px] left-0 h-0 w-full bg-[#1456ab] group-hover:h-[4px] transition-all duration-200"></span>

@@ -38,7 +38,7 @@ const Contact = () => {
 
           {/* LinkedIn Card */}
           <a 
-            href='https://www.linkedin.com/in/damilola-ibikunle-m-sc-aniseng-336971106/?originalSubdomain=ng'
+            href='https://www.linkedin.com/in/damilola-ibikunle-m-sc-336971106/'
             target='_blank'
             rel="noopener noreferrer"
             className='group relative bg-[#faf9f67e] dark:bg-[#161b29] shadow-lg rounded-lg p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent dark:hover:border-white hover:border-[#1456ab] focus:outline-none focus:ring-2 focus:ring-[#1456ab] focus:ring-offset-2 dark:focus:ring-offset-gray-800'
